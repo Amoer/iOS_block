@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D734EC2E1CC3C54900AD52FE /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = D734EC2D1CC3C54900AD52FE /* TestController.m */; };
+		D734EC311CC3C80800AD52FE /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D734EC301CC3C80800AD52FE /* TestViewController.m */; };
 		D7E969C91CC0F15600DCDDF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E969C81CC0F15600DCDDF5 /* main.m */; };
 		D7E969CC1CC0F15600DCDDF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E969CB1CC0F15600DCDDF5 /* AppDelegate.m */; };
 		D7E969CF1CC0F15600DCDDF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E969CE1CC0F15600DCDDF5 /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* Begin PBXFileReference section */
 		D734EC2C1CC3C54900AD52FE /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
 		D734EC2D1CC3C54900AD52FE /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+		D734EC2F1CC3C80800AD52FE /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D734EC301CC3C80800AD52FE /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		D7E969C41CC0F15600DCDDF5 /* Block传值.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block传值.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E969C81CC0F15600DCDDF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7E969CA1CC0F15600DCDDF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				D7E969ED1CC0FCE800DCDDF5 /* ChooseController.m */,
 				D734EC2C1CC3C54900AD52FE /* TestController.h */,
 				D734EC2D1CC3C54900AD52FE /* TestController.m */,
+				D734EC2F1CC3C80800AD52FE /* TestViewController.h */,
+				D734EC301CC3C80800AD52FE /* TestViewController.m */,
 				D7E969D01CC0F15600DCDDF5 /* Main.storyboard */,
 				D7E969D31CC0F15600DCDDF5 /* Assets.xcassets */,
 				D7E969D51CC0F15600DCDDF5 /* LaunchScreen.storyboard */,
@@ -221,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D734EC311CC3C80800AD52FE /* TestViewController.m in Sources */,
 				D7E969CF1CC0F15600DCDDF5 /* ViewController.m in Sources */,
 				D7E969CC1CC0F15600DCDDF5 /* AppDelegate.m in Sources */,
 				D7E969EE1CC0FCE800DCDDF5 /* ChooseController.m in Sources */,
